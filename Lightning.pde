@@ -7,7 +7,7 @@ int col1 = (int)(Math.random()*200)+100;
 int col2 = (int)(Math.random()*200)+100;
 int col3 = (int)(Math.random()*200)+100;
 int click = 0;
-int diam = 10;
+int diam = 300;
 void setup()
 {
   size(500, 500);
@@ -32,7 +32,7 @@ void draw()
       ellipse(250, 250, diam, diam);
       diam = diam + 20;
       if (diam > 700) {
-        diam = 10;
+        diam = 300;
       }
     }
   }
